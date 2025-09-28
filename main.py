@@ -16,7 +16,7 @@ from typing import Optional, Any, Callable, Tuple
 logging.basicConfig(level=logging.INFO,
                     format="%(asctime)s | %(levelname)s | %(message)s")
 
-TOKEN = "MTM4OTg4OTM3Mjg1NzU2OTMwMA.GE0hAW.FomlA-PAWXYVg_lMKmVSbqnYovqcTH0CFJ2OQc"
+TOKEN = "MTM4OTg4OTM3Mjg1NzU2OTMwMA.G6MWpY.gamDgYT92j94jHNxFP_5rj8YkcHy0nl-aHGpnk"
 
 SEND_INTERVAL = 0.20  # fallback sleep (kept for compatibility)
 REACT_INTERVAL = 0.28  # fallback sleep (kept for compatibility)
@@ -1299,4 +1299,5 @@ except Exception as e:
         asyncio.run(graceful_close())
     except Exception:
         pass
+
 
